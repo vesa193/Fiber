@@ -15,9 +15,9 @@ const Text = ({ children, className }) => {
   );
 }
 
-const Link = ({ children }) => {
+const LinkStyled = ({ children }) => {
   return (
-    <p className="link">{children}</p>
+    <span className="link">{children}</span>
   );
 }
 
@@ -85,5 +85,5 @@ export {
   Text,
   Input,
   Button,
-  Link
+  LinkStyled
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Title, Text, Input, Link, Button } from '../common/common';
+import { Title, Text, Input, LinkStyled, Button } from '../common/common';
 import './SignUpPart.scss'
 
 export const SignUpPart = () => {
@@ -15,7 +15,7 @@ export const SignUpPart = () => {
 
       <Input type="checkbox" />
       <Button>Create Fiber Account</Button>
-      <Text className="sign-up-down-text">Already have an account? <Link>Sign in</Link></Text>
+      <Text className="sign-up-down-text">Already have an account? <LinkStyled>Sign in</LinkStyled></Text>
     </div>
   )
 }

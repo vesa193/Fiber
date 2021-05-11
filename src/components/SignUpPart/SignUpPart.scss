@@ -1,7 +1,13 @@
+@import '../../variables.scss';
+
 .sign-up {
-  padding: 4rem;
+  max-width: fit-content;
+  align-self: center;
+  justify-self: center;
+  padding: 2rem;
 
   &-heading {
+    font-size: 1.2rem;
     margin-bottom: 3rem;
   }
 }
@@ -19,8 +25,8 @@
   margin-top: 20px;
   gap: 5px;
 
-  p {
-    color: #3500d2;
+  .link {
+    color: $primary-color;
     cursor: pointer;
   }
 }
