@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Fiber/static/css/main.2dda3ae2.chunk.css",
+    "main.js": "/Fiber/static/js/main.7ca20be4.chunk.js",
+    "main.js.map": "/Fiber/static/js/main.7ca20be4.chunk.js.map",
+    "runtime-main.js": "/Fiber/static/js/runtime-main.494c228a.js",
+    "runtime-main.js.map": "/Fiber/static/js/runtime-main.494c228a.js.map",
+    "static/js/2.156e269f.chunk.js": "/Fiber/static/js/2.156e269f.chunk.js",
+    "static/js/2.156e269f.chunk.js.map": "/Fiber/static/js/2.156e269f.chunk.js.map",
+    "static/js/3.091953d7.chunk.js": "/Fiber/static/js/3.091953d7.chunk.js",
+    "static/js/3.091953d7.chunk.js.map": "/Fiber/static/js/3.091953d7.chunk.js.map",
+    "index.html": "/Fiber/index.html",
+    "static/css/main.2dda3ae2.chunk.css.map": "/Fiber/static/css/main.2dda3ae2.chunk.css.map",
+    "static/js/2.156e269f.chunk.js.LICENSE.txt": "/Fiber/static/js/2.156e269f.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/Fiber/static/media/Lato-Regular.9919edff.ttf",
+    "static/media/hide_password.69e86df7.svg": "/Fiber/static/media/hide_password.69e86df7.svg",
+    "static/media/signup_image.8258e31f.png": "/Fiber/static/media/signup_image.8258e31f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.494c228a.js",
+    "static/js/2.156e269f.chunk.js",
+    "static/css/main.2dda3ae2.chunk.css",
+    "static/js/main.7ca20be4.chunk.js"
+  ]
+}
