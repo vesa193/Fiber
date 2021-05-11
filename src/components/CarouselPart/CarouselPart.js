@@ -2,6 +2,6 @@ import React from 'react';
 
 export const CarouselPart = () => {
   return (
-    <div>Carousel Part</div>
+    <div className="carousel">Carousel Part</div>
   )
 }

@@ -47,11 +47,13 @@ const Input = ({ type }) => {
       return res =
       <div className="input-box">
         <label htmlFor="password">Password</label>
-        <input
-          type="password"
-          placeholder="At least 8 characters"
-        />
-        <img src={hidePassword} alt="hide password" />
+        <div className="input-password">
+          <input
+            type="password"
+            placeholder="At least 8 characters"
+          />
+          <img src={hidePassword} alt="hide password" />
+        </div>
       </div>
     case 'checkbox':
       return res =
