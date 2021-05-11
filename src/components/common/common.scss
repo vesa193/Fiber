@@ -1,0 +1,91 @@
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.input-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  &--checkbox {
+    margin-top: 2rem;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    
+    input {
+      flex: 0 0 27px;
+      width: 27px;
+      height: 27px;
+    }
+    
+    p {
+      flex: 1 1 auto;
+      font-size: 1.2rem;
+    
+      .terms {
+        color: #3500d2;
+        font-weight: bold;
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        cursor: pointer;
+      }
+      .dot {
+        color: #3500d2;
+      }
+    }
+  }
+
+  input {
+    position: relative;
+    width: 100%;
+    max-width: 520px;
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #ccc;
+    border-style: solid;
+    outline: none;
+
+    &::placeholder {
+      color: #ccc;
+    }
+
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  img {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    cursor: pointer;
+  }
+}
+
+.button {
+  width: 100%;
+  padding: 20px;
+  background: #3500d2;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 2rem;
+
+  &:hover {
+    background: lighten(#3500d2, 5%);
+  }
+}
